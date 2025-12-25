@@ -41,4 +41,16 @@
     <string name="my_donors">My Donors</string>
     <string name="prasadam_form">Prasadam Form</string>
     <string name="donation_form">Donation Form</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="sarah_j_comopony_com">sarah.j@comopony.com</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="_1_555_123_4567">+1 (555) 123-4567</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="emp_4921">EMP-4921</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="leads">Leads</string>
+    <string name="call_stats">Call Stats</string>
 </resources>
