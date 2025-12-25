@@ -49,4 +49,8 @@ dependencies {
     // material design
     implementation (libs.material.v1130)
 
+    implementation ("androidx.drawerlayout:drawerlayout:1.2.0")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.9.6")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.9.6")
+
 }
