@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Profile -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="56dp"
+                android:layout_height="56dp">
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/bg_circle"
+                    android:src="@drawable/ic_avatar"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@drawable/bg_green_dot" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_marginStart="12dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sarah_jenkins"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#0F172A" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_profile"
+                    android:textSize="13sp"
+                    android:textColor="#1DA1F2"
+                    android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Accepting Calls -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_accepting_calls"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/bg_green_dot" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/accepting_calls"
+                android:textStyle="bold"
+                android:textColor="#334155"
+                android:layout_weight="1"
+                android:layout_width="0dp" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchAcceptingCalls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                app:useMaterialThemeColors="true"/>
+
+        </LinearLayout>
+
+        <!-- MAIN MENU -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/main_menu"
+            android:textSize="12sp"
+            android:textColor="#7DD3FC"
+            android:textStyle="bold" />
+
+        <!-- Active -->
+        <LinearLayout
+            android:id="@+id/menuAllLeads"
+            android:layout_marginTop="12dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_active_menu"
+            android:padding="14dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_users"
+                app:tint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_leads"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Campaigns -->
+        <RelativeLayout
+            android:id="@+id/menuCampaigns"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_companian"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/campaigns"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/notification"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/bg_badge"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:padding="6dp"
+                android:textSize="12sp"
+                android:includeFontPadding="false"/>
+        </RelativeLayout>
+
+        <!-- message -->
+        <RelativeLayout
+            android:id="@+id/message_templates"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/message_template"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/message_templates"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/donation_form"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/donation"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/donation_form"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/gift"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/gift"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/prasadam_form"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_donor"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_users"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/my_donors"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="#E5E7EB"
+            android:layout_width="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/settings"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/settings"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/settings"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sigout"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:padding="14dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_logout"
+                app:tint="#64748B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="36dp"
+                android:text="@string/sign_out"
+                android:textColor="#64748B"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/teleconnect_app_v1_2_0"
+            android:textSize="12sp"
+            android:textColor="#CBD5E1"/>
+
+    </LinearLayout>
+</ScrollView>
