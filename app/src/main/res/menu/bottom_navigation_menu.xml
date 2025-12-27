@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard" />
+
+    <item
+        android:id="@+id/navigation_leads"
+        android:title="Leads"
+        android:icon="@drawable/ic_users" />
+
+    <item
+        android:id="@+id/navigation_campaigns"
+        android:title="Campaigns"
+        android:icon="@drawable/ic_companian" />
+
+    <item
+        android:id="@+id/navigation_call_stats"
+        android:title="Call Stats"
+        android:icon="@drawable/ic_bar_chart" />
+</menu>

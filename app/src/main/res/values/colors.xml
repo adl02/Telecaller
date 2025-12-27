@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="primary">#2B9DEE</color>
-    <color name="background_light">#F6F7F8</color>
-    <color name="text_primary">#111518</color>
-    <color name="text_secondary">#6B7280</color>
     <color name="text_disabled">#9CA3AF</color>
     <color name="bg_readonly">#F3F4F6</color>
     <color name="outline">#E5E7EB</color>
     <color name="bottom_nav_tint">#9CA3AF</color>
+    <!-- Primary Colors -->
+    <color name="primary">#2b9dee</color>
+    <color name="primary_10">#E6F5FD</color>
+    <color name="primary_20">#CCE7FA</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#f6f7f8</color>
+    <color name="background_dark">#101a22</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1e293b</color>
+    <color name="text_secondary">#64748b</color>
+    <color name="text_tertiary">#94a3b8</color>
+
+    <!-- Border Colors -->
+    <color name="border_light">#e2e8f0</color>
+    <color name="divider_color">#f1f5f9</color>
+
+    <!-- Icon Background Colors - Blue -->
+    <color name="blue_50">#eff6ff</color>
+    <color name="blue_900_30">#4D1e3a8a</color>
+
+    <!-- Icon Background Colors - Purple -->
+    <color name="purple_50">#faf5ff</color>
+    <color name="purple_600">#9333ea</color>
+    <color name="purple_400">#c084fc</color>
+    <color name="purple_900_30">#4D581c87</color>
+
+    <!-- Icon Background Colors - Green -->
+    <color name="green_50">#f0fdf4</color>
+    <color name="green_600">#16a34a</color>
+    <color name="green_400">#4ade80</color>
+    <color name="green_900_30">#4D14532d</color>
+
+    <!-- Icon Background Colors - Orange -->
+    <color name="orange_50">#fff7ed</color>
+    <color name="orange_600">#ea580c</color>
+    <color name="orange_400">#fb923c</color>
+    <color name="orange_900_30">#4D7c2d12</color>
+
+    <!-- Icon Background Colors - Gray -->
+    <color name="gray_50">#f8fafc</color>
+    <color name="gray_100">#f1f5f9</color>
+    <color name="gray_600">#475569</color>
+    <color name="gray_700">#334155</color>
+    <color name="gray_300">#cbd5e1</color>
+
+    <!-- Accent Colors -->
+    <color name="red_600">#dc2626</color>
+    <color name="red_400">#f87171</color>
+
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_inactive">#64748b</color>
 </resources>

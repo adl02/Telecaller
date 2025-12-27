@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar Title Appearance -->
+    <style name="TextAppearance.App.Toolbar" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Bottom Navigation Text Appearance -->
+    <style name="BottomNavTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Circle Image View -->
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Section Header Text -->
+    <style name="SectionHeaderText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- List Item Title Text -->
+    <style name="ListItemTitleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Profile Name Text -->
+    <style name="ProfileNameText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Profile Role Text -->
+    <style name="ProfileRoleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+</resources>
