@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#f6f7f8"
     tools:context=".EditProfile">
 
     <!-- Top Bar -->
@@ -16,6 +16,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:clickable="true"
+        android:contentDescription="bakcbutton"
         android:src="@drawable/arrow_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -60,7 +61,7 @@
             android:clipToOutline="true"
             android:outlineProvider="background"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_avatar"
+            android:src="@drawable/profileImage"
             tools:ignore="UnusedAttribute" />
 
         <ImageView
@@ -71,6 +72,7 @@
             android:layout_margin="4dp"
             android:background="@drawable/bg_circle_white_border"
             android:clickable="true"
+            android:contentDescription="camra"
             android:padding="8dp"
             android:src="@drawable/ic_camera" />
     </FrameLayout>
@@ -87,6 +89,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/profileImageContainer" />
+
+    <TextView
+        android:id="@+id/tvChangePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/change_profile_photo"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvName" />
+
 
     <!-- Form -->
     <LinearLayout
@@ -199,19 +216,37 @@
     </LinearLayout>
 
     <!-- Save Button -->
-    <Button
+    <LinearLayout
         android:id="@+id/btnSave"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_margin="16dp"
-        android:text="@string/save_changes"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#2DAAF1"
-        app:cornerRadius="10dp"
+        android:background="@drawable/bg_save_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/bottomNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/formContainer" />
+        app:layout_constraintTop_toBottomOf="@id/formContainer">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_save"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/save_changes"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 
     <!-- Bottom Navigation -->
     <LinearLayout
@@ -231,7 +266,8 @@
             android:layout_weight="1"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
                 android:layout_width="22dp"
@@ -276,7 +312,8 @@
             android:layout_weight="1"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
                 android:layout_width="22dp"
@@ -299,7 +336,8 @@
             android:layout_weight="1"
             android:clickable="true"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
                 android:layout_width="22dp"
