@@ -5,6 +5,9 @@
     <color name="bg_readonly">#F3F4F6</color>
     <color name="outline">#E5E7EB</color>
     <color name="bottom_nav_tint">#9CA3AF</color>
+    <color name="bg_counter">#F9FAFB</color>
+    <color name="text_hint">#9AAEBC</color>
+
     <!-- Primary Colors -->
     <color name="primary">#2b9dee</color>
     <color name="primary_10">#E6F5FD</color>

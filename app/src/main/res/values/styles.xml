@@ -10,6 +10,7 @@
     <!-- Bottom Navigation Text Appearance -->
     <style name="BottomNavTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
         <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/inter_medium</item>
     </style>
 
     <!-- Circle Image View -->

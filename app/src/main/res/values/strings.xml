@@ -53,4 +53,17 @@
     <string name="dashboard">Dashboard</string>
     <string name="leads">Leads</string>
     <string name="call_stats">Call Stats</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="save">Save</string>
+    <string name="template_initial_outreach">Template: Initial Outreach</string>
+    <string name="type_your_message_here">Type your message here...</string>
+    <string name="message">Hi {{Name}},\n\nThanks for your interest in our property at Sunset Boulevard. I\'d love to schedule a quick call to discuss the details.\n\nAre you available this {{Day}} afternoon?\n\nBest,\n{{AgentName}}</string>
+    <string name="_142_characters">142 characters</string>
+    <string name="insert_variable">INSERT VARIABLE</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="phone">Phone</string>
+    <string name="city">City</string>
+    <string name="agent_name">Agent Name</string>
+    <string name="send_via_whatsapp">Send via WhatsApp</string>
 </resources>
