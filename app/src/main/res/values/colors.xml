@@ -9,6 +9,8 @@
     <color name="text_hint">#9AAEBC</color>
     <color name="divider">#E5E7EB</color>
     <color name="border_dashed">#D1D5DB</color>
+    <color name="border_color">#DBE1E6</color>
+    <color name="input_prefix_bg">#F3F4F6</color>
 
     <!-- Primary Colors -->
     <color name="primary">#2b9dee</color>

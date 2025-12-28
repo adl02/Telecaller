@@ -87,7 +87,7 @@
     <string name="type_of_donor">Type of Donor</string>
     <string name="location">Location</string>
     <string name="_10_digit_number">10-digit number</string>
-    <string name="mobile_no">Mobile No</string>
+    <string name="mobile_no">Mobile No *</string>
     <string name="enter_full_name">Enter full name</string>
     <string name="donor_name">Donor Name</string>
     <string name="jane_doe">Jane Doe</string>
@@ -97,4 +97,14 @@
     <string name="donor_details">DONOR DETAILS</string>
     <string name="record_donation">Record Donation</string>
     <string name="select_donor_type">Select donor type</string>
+    <string name="name_of_donor">Name of Donor *</string>
+    <string name="logged_by_telecaller_name">Logged By (Telecaller Name)</string>
+    <string name="anjali_sharma">Anjali Sharma</string>
+    <string name="date_of_donation">Date of Donation</string>
+    <string name="enter_donor_s_full_name">Enter donor\'s full name</string>
+    <string name="enter_donor_s_mobile_number">Enter donor\'s mobile number</string>
+    <string name="amount_donated">Amount Donated *</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="enter_complete_address_for_prasadam_delivery">Enter complete address for prasadam delivery...</string>
+    <string name="save_prasadam_entry">Save Prasadam Entry</string>
 </resources>
