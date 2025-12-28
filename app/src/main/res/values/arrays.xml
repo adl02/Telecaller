@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donor_types">
+        <item>One-time Donor</item>
+        <item>Recurring Donor</item>
+        <item>VIP</item>
+    </string-array>
+
+    <string-array name="payment_types">
+        <item>General</item>
+        <item>Specific Cause</item>
+        <item>Corpus Fund</item>
+    </string-array>
+
+    <string-array name="payment_modes">
+        <item>UPI</item>
+        <item>Net Banking</item>
+        <item>Credit Card</item>
+        <item>Cash</item>
+    </string-array>
+</resources>
