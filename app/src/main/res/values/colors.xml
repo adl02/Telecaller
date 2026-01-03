@@ -28,6 +28,18 @@
     <color name="primary_10">#E6F5FD</color>
     <color name="primary_20">#CCE7FA</color>
 
+    <color name="search_background">#F1F5F9</color>
+    <color name="status_approved_bg">#DCFCE7</color>
+    <color name="status_approved_text">#15803D</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+    <color name="status_pending_text">#A16207</color>
+    <color name="chip_selected">#2b9dee</color>
+    <color name="chip_unselected">#f1f5f9</color>
+    <color name="card_border_default">#E2E8F0</color>
+    <color name="card_border_selected">#2B9DEE</color>
+    <color name="radio_unchecked">#CBD5E1</color>
+    <color name="radio_checked">#2B9DEE</color>
+
     <!-- Background Colors -->
     <color name="background_light">#f6f7f8</color>
     <color name="background_dark">#101a22</color>
