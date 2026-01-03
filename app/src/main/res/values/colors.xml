@@ -41,6 +41,12 @@
     <color name="radio_checked">#2B9DEE</color>
     <color name="chip_text_unselected">#475569</color>
 
+    <color name="amber_500">#f59e0b</color>
+    <color name="timeline_line">#f1f5f9</color>
+    <color name="green_700">#15803d</color>
+    <color name="blue_700">#1d4ed8</color>
+    <color name="primary_light">#2b9dee1a</color>
+
     <!-- Background Colors -->
     <color name="background_light">#f6f7f8</color>
     <color name="background_dark">#101a22</color>
