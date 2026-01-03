@@ -39,6 +39,7 @@
     <color name="card_border_selected">#2B9DEE</color>
     <color name="radio_unchecked">#CBD5E1</color>
     <color name="radio_checked">#2B9DEE</color>
+    <color name="chip_text_unselected">#475569</color>
 
     <!-- Background Colors -->
     <color name="background_light">#f6f7f8</color>

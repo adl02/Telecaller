@@ -52,6 +52,5 @@
     <style name="ProfileRoleText">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/text_secondary</item>
-        <item name="fontFamily">@font/inter_medium</item>
     </style>
 </resources>
