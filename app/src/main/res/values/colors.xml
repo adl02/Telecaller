@@ -33,8 +33,6 @@
     <color name="status_approved_text">#15803D</color>
     <color name="status_pending_bg">#FEF3C7</color>
     <color name="status_pending_text">#A16207</color>
-    <color name="chip_selected">#2b9dee</color>
-    <color name="chip_unselected">#f1f5f9</color>
     <color name="card_border_default">#E2E8F0</color>
     <color name="card_border_selected">#2B9DEE</color>
     <color name="radio_unchecked">#CBD5E1</color>
@@ -50,6 +48,7 @@
     <color name="progress_gray">#B0BEC5</color>
     <color name="progress_green">#4CAF50</color>
     <color name="progress_background">#E8ECEF</color>
+    <color name="search_bar_bg">#F1F5F9</color>
 
     <color name="amber_500">#f59e0b</color>
     <color name="timeline_line">#f1f5f9</color>
@@ -64,6 +63,10 @@
     <color name="status_paused">#C2410C</color>
     <color name="status_active">#15803D</color>
     <color name="segmented_bg">#E5E7EB</color>
+    <color name="chip_selected">#2B9DEE</color>
+    <color name="chip_unselected">#F1F5F9</color>
+    <color name="chip_selected_text">#FFFFFF</color>
+    <color name="chip_unselected_text">#475569</color>
 
     <!-- Background Colors -->
     <color name="background_light">#f6f7f8</color>
