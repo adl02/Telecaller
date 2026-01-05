@@ -41,6 +41,16 @@
     <color name="radio_checked">#2B9DEE</color>
     <color name="chip_text_unselected">#475569</color>
 
+    <color name="segmented_button_checked">#FFFFFF</color>
+    <color name="segmented_button_unchecked">#00000000</color>
+    <color name="segmented_text_checked">#2B9DEE</color>
+    <color name="segmented_text_unchecked">#617989</color>
+    <color name="progress_primary">#2B9DEE</color>
+    <color name="progress_orange">#FF9800</color>
+    <color name="progress_gray">#B0BEC5</color>
+    <color name="progress_green">#4CAF50</color>
+    <color name="progress_background">#E8ECEF</color>
+
     <color name="amber_500">#f59e0b</color>
     <color name="timeline_line">#f1f5f9</color>
     <color name="green_700">#15803d</color>
@@ -48,6 +58,12 @@
     <color name="primary_light">#2b9dee1a</color>
     <color name="icon_tint">#64748B</color>
     <color name="surface_light">#F1F3F4</color>
+    <color name="status_completed">#166534</color>
+    <color name="card_border">#E5E7EB</color>
+    <color name="status_draft">#6B7280</color>
+    <color name="status_paused">#C2410C</color>
+    <color name="status_active">#15803D</color>
+    <color name="segmented_bg">#E5E7EB</color>
 
     <!-- Background Colors -->
     <color name="background_light">#f6f7f8</color>
