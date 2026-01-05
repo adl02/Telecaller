@@ -10,6 +10,6 @@
 | ![Login](screenshots/edit_profile.png) | ![Forgot Password](screenshots/settings.png) | ![Check Email](screenshots/edit_message.png) | ![Drawer](screenshots/Donor.png) | ![Sign Out](screenshots/prasadam.png) |
 
 
-| Donor Details                           | Donor List                                     | Lead and Activity                     | All Leads                            | Call Stats                              |
-|-----------------------------------------|------------------------------------------------|---------------------------------------|--------------------------------------|-----------------------------------------|
-| ![Login](screenshots/donor_details.png) | ![Forgot Password](screenshots/donor_list.png) | ![Check Email](screenshots/leads.png) | ![Drawer](screenshots/all_leads.png) | ![Sign Out](screenshots/call_stats.png) |
+| Donor Details                           | Donor List                                     | Lead and Activity                     | Message Template                   | Campaigns Management                   |
+|-----------------------------------------|------------------------------------------------|---------------------------------------|------------------------------------|----------------------------------------|
+| ![Login](screenshots/donor_details.png) | ![Forgot Password](screenshots/donor_list.png) | ![Check Email](screenshots/leads.png) | ![Drawer](screenshots/msg_tmp.png) | ![Sign Out](screenshots/campaigns.png) |
