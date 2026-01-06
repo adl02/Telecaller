@@ -13,3 +13,8 @@
 | Donor Details                           | Donor List                                     | Lead and Activity                     | Message Template                   | Campaigns Management                   |
 |-----------------------------------------|------------------------------------------------|---------------------------------------|------------------------------------|----------------------------------------|
 | ![Login](screenshots/donor_details.png) | ![Forgot Password](screenshots/donor_list.png) | ![Check Email](screenshots/leads.png) | ![Drawer](screenshots/msg_tmp.png) | ![Sign Out](screenshots/campaigns.png) |
+
+
+| All Leads                           | Call Stats                                     | Dashboard                                  | Fresh lead list                       | contacted List                         | Interest List                         |
+|-------------------------------------|------------------------------------------------|--------------------------------------------|---------------------------------------|----------------------------------------|---------------------------------------|
+| ![Login](screenshots/all_leads.png) | ![Forgot Password](screenshots/call_stats.png) | ![Check Email](screenshots/dashoboard.png) | ![Drawer](screenshots/fresh_lead.png) | ![Sign Out](screenshots/contacted.png) | ![Sign Out](screenshots/interest.png) |
