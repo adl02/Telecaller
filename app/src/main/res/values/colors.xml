@@ -49,6 +49,13 @@
     <color name="progress_green">#4CAF50</color>
     <color name="progress_background">#E8ECEF</color>
     <color name="search_bar_bg">#F1F5F9</color>
+    <color name="text_main">#111518</color>
+    <color name="text_sub">#617989</color>
+    <color name="chat_button_bg">#DCFCE7</color>
+    <color name="chat_button_tint">#16A34A</color>
+    <color name="call_button_bg">#DBEAFE</color>
+    <color name="search_bg">#F0F3F4</color>
+    <color name="status_fresh_bg">#DBEAFE</color>
 
     <color name="amber_500">#f59e0b</color>
     <color name="timeline_line">#f1f5f9</color>
