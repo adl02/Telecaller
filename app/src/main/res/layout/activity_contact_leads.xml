@@ -870,10 +870,10 @@
         android:src="@drawable/ic_add"
         android:background="@drawable/fab_background"
         android:padding="14dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintMarginEnd="16dp"
-        app:layout_constraintMarginBottom="16dp"
         app:tint="@android:color/white" />
 
     <!-- Bottom Navigation -->
