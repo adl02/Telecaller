@@ -20,8 +20,15 @@
     <color name="slate_900">#0f172a</color>
     <color name="green_100">#dcfce7</color>
     <color name="green_800">#166534</color>
+    <color name="red_500">#EF4444</color>
+    <color name="orange_500">#F97316</color>
+    <color name="blue_500">#3B82F6</color>
+    <color name="purple">#9333EA</color>
+
+
     <color name="primary_alpha_5">#0D2b8cee</color>
     <color name="primary_alpha_10">#1A2b8cee</color>
+    <color name="primary_border">#B3DFFA</color>
 
     <!-- Primary Colors -->
     <color name="primary">#2b9dee</color>
@@ -62,6 +69,7 @@
     <color name="green_700">#15803d</color>
     <color name="blue_700">#1d4ed8</color>
     <color name="primary_light">#2b9dee1a</color>
+    <color name="primary_light_call">#E8F4FD</color>
     <color name="icon_tint">#64748B</color>
     <color name="surface_light">#F1F3F4</color>
     <color name="status_completed">#166534</color>
